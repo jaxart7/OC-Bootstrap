@@ -1,0 +1,26 @@
+body {
+  padding-top: 10px;
+}
+
+[class*="col-"], footer, header {
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col-lg-5 ,.col-md-6 {
+  line-height: 8em;
+}
+
+.col-lg-12, .col-lg-2 {
+  line-height: 4em;
+}
